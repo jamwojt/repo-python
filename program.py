@@ -1,10 +1,10 @@
 kot = "=^_^="
 iloscKotów = input("Ile chcesz kotów ")
 try:
-    iloscKotów = int(nr_karty)
+    iloscKotów = int(ilosc)
 except ValueError as owcaError:
-    print("Nie wpisałeś liczby ")
-    nr_karty = 7
+    print("=^!^= ")
+    ilosc = 7
 
 # zadanie domowe
 """

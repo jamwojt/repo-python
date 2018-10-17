@@ -1,0 +1,9 @@
+kot = "=^_^="
+koty = input("Ile chcesz kotów? ")
+try:
+  if int (koty)    < 0:
+    print ("=^!^= tak się nie da =^!^=")    
+except ValueError as owcaError:
+  print("=^!^= podaj liczbę całkowitą =^!^=")
+for i in range(0,int(koty)):
+   print ("=^_^=")
